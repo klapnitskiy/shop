@@ -1,0 +1,20 @@
+@import "header.css";
+
+html {
+    font-family: 'Quicksand', sans-serif;
+    color: #00284F;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F9F9F9;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 30px 0 30px;
+    margin: 0 auto;
+}

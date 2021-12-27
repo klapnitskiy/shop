@@ -1,0 +1,34 @@
+.header {
+    background-color: #fff;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 0 26px 0;
+}
+
+.header__top > div {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header__menu-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    padding: 24px 0 24px 0;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: center;
+}
+
+.header__menu-list {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    margin: 0;
+}
