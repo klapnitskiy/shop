@@ -7,17 +7,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/index.css">
+    <script src="js/app.js" defer></script>
 </head>
 <body>
     <section class="burger">
         <div class="burger__container">
             <div class="burger__top">
-                <a href="" class="burger__btn">
-                    <img src="./images/close.svg" alt="">
-                </a>
+                <img class="burger__btn" src="./images/close.svg" alt="">
                 <nav class="burger__nav">
                     <ul class="burger__list page__menu-list">
-                        <li class="burger__list-item"><a href="" class="burger__list-link page__menu-link berger__list-link--active">Все продукты</a></li>
+                        <li class="burger__list-item"><a href="" class="burger__list-link page__menu-link burger__list-link--active">Все продукты</a></li>
                         <li class="burger__list-item"><a href="" class="burger__list-link page__menu-link">Продукты для взрослых</a></li>
                         <li class="burger__list-item"><a href="" class="burger__list-link page__menu-link">Продукты для детей</a></li>
                     </ul>
@@ -31,8 +30,28 @@
                     </ul>
                 </nav>
             </div>
-            <div class="burger__menu-bottom">
-
+            <div class="burger__bottom">
+                <nav class="burger__bottom-nav">
+                    <ul class="burger__bottom-list page__menu-list">
+                        <li class="burger__bottom-listItem"><a href="" class="burger__bottom-listLink page__menu-link berger__bottom-listLink--active">Доставка и оплата</a></li>
+                        <li class="burger__bottom-listItem"><a href="" class="burger__bottom-listLink page__menu-link">Контакты</a></li>
+                        <li class="burger__bottom-listItem"><a href="" class="burger__bottom-listLink page__menu-link">Вакансии</a></li>
+                    </ul>
+                </nav>
+                <div class="burger__bottom-info">
+                    <div class="burger__bottom-infoItem">
+                        <h5 class="burger__bottom-infoTitle">Доставка</h5>
+                        <span class="burger__bottom-infoCheck">Украина</span>
+                    </div>
+                    <div class="burger__bottom-infoItem">
+                        <h5 class="burger__bottom-infoTitle">Язык</h5>
+                        <span class="burger__bottom-infoCheck">Русский</span>
+                    </div>
+                    <div class="burger__bottom-infoItem">
+                        <h5 class="burger__bottom-infoTitle">Валюта</h5>
+                        <span class="burger__bottom-infoCheck">Грн</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -79,40 +98,28 @@
                 <h3 class="main__content-title page__title">Популярное в этой категории</h3>
                 <div class="main__content-grid">
                     <div class="main__content-item">
-                        <img src="./images/items/item1.jpg" alt="" class="main__content-itemImg">
+                        <img src="./images/items/item2.jpg" alt="" class="main__content-itemImg">
                         <h4 class="main__content-itemTitle">Коллаген</h4>
                         <span class="main__content-itemDesc">Пептиды 1-типа из Франции</span>
                         <span class="main__content-itemCount">30 порций в стиках</span>
                     </div>
                     <div class="main__content-item">
                         <img src="./images/items/item1.jpg" alt="" class="main__content-itemImg">
-                        <h4 class="main__content-itemTitle">Коллаген</h4>
+                        <h4 class="main__content-itemTitle">Витамин D3 2000 МЕ</h4>
                         <span class="main__content-itemDesc">Пептиды 1-типа из Франции</span>
-                        <span class="main__content-itemCount">30 порций в стиках</span>
+                        <span class="main__content-itemCount">60 капсул</span>
+                    </div>
+                    <div class="main__content-item">
+                        <img src="./images/items/item2.jpg" alt="" class="main__content-itemImg">
+                        <h4 class="main__content-itemTitle">Омега-3 Треска</h4>
+                        <span class="main__content-itemDesc">Пептиды 1-типа из Франции</span>
+                        <span class="main__content-itemCount">120 капсул</span>
                     </div>
                     <div class="main__content-item">
                         <img src="./images/items/item1.jpg" alt="" class="main__content-itemImg">
-                        <h4 class="main__content-itemTitle">Коллаген</h4>
+                        <h4 class="main__content-itemTitle">Омега-3 Тунец</h4>
                         <span class="main__content-itemDesc">Пептиды 1-типа из Франции</span>
-                        <span class="main__content-itemCount">30 порций в стиках</span>
-                    </div>
-                    <div class="main__content-item">
-                        <img src="./images/items/item1.jpg" alt="" class="main__content-itemImg">
-                        <h4 class="main__content-itemTitle">Коллаген</h4>
-                        <span class="main__content-itemDesc">Пептиды 1-типа из Франции</span>
-                        <span class="main__content-itemCount">30 порций в стиках</span>
-                    </div>
-                    <div class="main__content-item">
-                        <img src="./images/items/item1.jpg" alt="" class="main__content-itemImg">
-                        <h4 class="main__content-itemTitle">Коллаген</h4>
-                        <span class="main__content-itemDesc">Пептиды 1-типа из Франции</span>
-                        <span class="main__content-itemCount">30 порций в стиках</span>
-                    </div>
-                    <div class="main__content-item">
-                        <img src="./images/items/item1.jpg" alt="" class="main__content-itemImg">
-                        <h4 class="main__content-itemTitle">Коллаген</h4>
-                        <span class="main__content-itemDesc">Пептиды 1-типа из Франции</span>
-                        <span class="main__content-itemCount">30 порций в стиках</span>
+                        <span class="main__content-itemCount">120 капсул</span>
                     </div>
                 </div>
             </div>

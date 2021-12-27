@@ -8,6 +8,10 @@
     padding: 26px 0 26px 0;
 }
 
+.header__top-menu {
+    cursor: pointer;
+}
+
 .header__top > div {
     display: flex;
     align-items: center;
