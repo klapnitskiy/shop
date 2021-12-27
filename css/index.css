@@ -1,13 +1,36 @@
 @import "header.css";
+@import "main.css";
+@import "burger.css";
+
 
 html {
+    --textColor: #00284F;
     font-family: 'Quicksand', sans-serif;
-    color: #00284F;
+    color: var(--textColor);
     box-sizing: border-box;
 }
 
+.page__menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.page__menu-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    font-size: 17px;
+}
+
+.page__title {
+    font-size: 15px;
+    opacity: 0.4;
+    margin: 0 0 28px 0;
+}
+
 body {
-    background-color: #F9F9F9;
+    background-color: #F2F2F2;
     margin: 0;
     padding: 0;
     box-sizing: border-box;

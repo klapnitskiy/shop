@@ -1,0 +1,39 @@
+.burger {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 432px;
+    height: 100%;
+    background-color: #fff;
+    z-index: 5;
+}
+
+.burger__nav {
+    padding-bottom: 36px;
+    margin-bottom: 36px;
+    border-bottom: 1px solid rgba(0, 40, 79, 0.1);
+}
+
+.burger__info-list {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+
+}
+
+.burger__container {
+    padding: 36px 44px;
+    height: inherit;
+}
+
+.burger__list {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.burger__btn {
+    display: inline-block;
+    line-height: 0;
+    margin-bottom: 90px;
+}
